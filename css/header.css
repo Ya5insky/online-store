@@ -1,0 +1,53 @@
+ .header {
+    width: 100%;
+}
+
+.header .container {
+    justify-content: space-between;
+    margin: 37px auto 60px auto; 
+
+}
+
+
+.header_basket{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+    gap: 10px;
+    color:#000000;
+    
+}
+
+
+.basket  span {
+    width: 21px;
+    height: 21px;
+    background: #00A82D;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #000000;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.basket:hover svg path {
+    fill: #00A82D;
+}
+
+.basket:hover p {
+    color:#00A82D;
+}
+
+

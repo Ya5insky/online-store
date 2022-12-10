@@ -1,0 +1,89 @@
+.products {
+    width: 100%;
+    min-height: 100%;
+}
+
+
+.products .container {
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+
+.products_title{
+    min-height: 100%;
+    width: 100%;
+}
+.title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.products_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px 20px;
+}
+
+
+.products_card {
+    height: 380px;
+    width: 270px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    cursor: pointer;
+}
+
+.product_photo  {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+
+.product_text{
+    margin-top: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+
+.product_price{
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+
+.product_button button{
+    width: 186px;
+    height: 40px;
+    background-color: #296DC1;;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+.products_card:hover button {
+    opacity: 1;
+    transition: opacity .3s;
+}
